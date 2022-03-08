@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Слайдер | Проект 3</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <!--! цвет левой панели идёт в порядке: серый, зелёный, голубой, бежевый; сами картинки расположены в зеркальной последовательности: бежевый, голубой, зелёный, серый -->
+
+    <div class="sidebar">
+      <div style="background-color: #515249;">
+        <h1>Kayaking</h1>
+        <p>Love sports</p>
+      </div>
+      <div style="background-color: #405312;">
+        <h1>Climbing</h1>
+        <p>Love sports</p>
+      </div>
+      <div style="background-color: #538b89;">
+        <h1>Snowboarding</h1>
+        <p>Love sports</p>
+      </div>
+      <div style="background-color: #a0842a;">
+        <h1>Cycling</h1>
+        <p>Love sports</p>
+      </div>
+    </div>
+
+    <div class="main-slide">
+      <div style="
+            background-image: url('https://images.unsplash.com/photo-1635560017665-f4efc80c707c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+          "></div>
+      <div style="
+            background-image: url('https://images.unsplash.com/photo-1617939533073-6c94c709370c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80');
+          "></div>
+      <div style="
+            background-image: url('https://images.unsplash.com/photo-1587829489663-b1f4c2eada7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80');
+          "></div>
+      <div style="
+            background-image: url('https://images.unsplash.com/photo-1588203320779-3b627fcc5db3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+          "></div>
+    </div>
+
+    <div class="controls">
+      <button class="down-button">
+        <i class="fas fa-arrow-down"></i>
+      </button>
+      <button class="up-button">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
